@@ -1,0 +1,29 @@
+.header-bar {
+    padding: 20px 0;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    max-width: 650px !important;
+    width: 100%;
+}
+
+.add-to-board{
+    display: flex;
+    align-items: center;
+}
+
+.MuiTextField-root {
+    margin-right: 20px !important;
+    width: 100%;
+}
