@@ -6,7 +6,7 @@ const boardShema = new Schema({
     description: String,
 })
 
-const boardModel = mongoose.model("Board", boardShema);
+const boardModel = mongoose.model("boards", boardShema);
 
 
-module.exports = boardModel;
+module.exports = boardModel; 
